@@ -14,6 +14,8 @@ export type GraphState = 'show' | 'hidden'
 
 const RESULTS_WIDTH = 300
 
+
+
 type Props = {
   graphState: GraphState
   setGraphState: (state: GraphState) => void
@@ -49,11 +51,32 @@ export default function GraphView({
 
     const graphModel = new NoteGraphModel(notes)
 
+
+
     noteGraphView = new NoteGraphView({
       container: graphContainer.current,
       graphModel,
+      enableNodeDrag: true,
       width: modalSize.width - RESULTS_WIDTH,
       height: modalSize.height,
+      style: { 
+        highlightedForeground: "#bf4237",
+        node: {
+          note: {
+            regular: "#F88379",
+          }
+        },
+        link: {
+          regular: "#c0c0c0",
+          highlighted: "#f1d8a6",
+        },
+        hoverNodeLink: {
+          highlightedDirection: {
+            inbound: "#c1f1b7",
+            outbound: "#f1d8a6",
+          }
+        }
+      },
     })
 
     noteGraphView.onInteraction('nodeClick', ({ node }) => {

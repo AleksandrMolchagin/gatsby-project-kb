@@ -212,7 +212,7 @@ export default function SiteSidebar(props: ISiteSidebarProps) {
   return (
     <div className="site-sidebar py-5 px-2">
       <div className="site-sidebar__title">
-        <Link to="/"><div style={{display: "flex"}}><span>{title}</span><span><img src={techGuy} style={{width:'1.5rem', marginLeft: '0.4rem'}}/></span></div></Link>
+        <Link to="/"><div className="Sidebar-TechGuy"><span>{title}</span><span><img src={techGuy} style={{width:'1.5rem', marginLeft: '0.4rem'}}/></span></div></Link>
       </div>
       <div className="site-sidebar__search">
         <Search

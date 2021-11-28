@@ -4,6 +4,14 @@
   width: 100%;
 }
 
+.Sidebar-TechGuy{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  height: 2rem;
+}
+
 .site-sidebar__title {
   font-weight: bold;
   margin-bottom: 5px;
