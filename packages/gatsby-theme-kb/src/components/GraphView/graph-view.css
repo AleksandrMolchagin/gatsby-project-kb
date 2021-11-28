@@ -1,3 +1,9 @@
+.force-graph-container canvas {
+  border-radius: var(--root-radius);
+  border-color: black;
+  border-width: 0.5px;
+}
+
 .dark-mode .force-graph-container canvas {
   background: #3b4352 !important;
 }
@@ -65,6 +71,10 @@
   color: var(--kb-text-inverse-color);
   font-size: 1.5em;
   margin-top: 0.5em;
+}
+
+.modal-close{
+  z-index: 100;
 }
 
 .modal-close,

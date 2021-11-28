@@ -1,12 +1,18 @@
 .searchWrapper {
   position: relative;
   display: block;
+  border-radius: var(--root-radius);
+  border-color: black;
+  border-width: 0.5px;
 }
 
 .inputWrapper {
   position: relative;
+  border-radius: var(--root-radius);
+  overflow: hidden;
   color: var(--kb-text-color);
 }
+
 
 .inputWrapper .searchIcon {
   position: absolute;
@@ -50,7 +56,10 @@
   background: var(--kb-note-bg);
   box-shadow: -5px -5px 15px -3px var(--kb-shadow-bg);
   overflow-y: auto;
-  border-radius: 4px;
+  border-radius: var(--root-radius);
+  border-color: black;
+  border-width: 0.5px;
+
 }
 
 .results li {

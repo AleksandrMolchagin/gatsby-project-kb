@@ -1,3 +1,11 @@
+:root{
+ --root-radius: 10px;
+}
+.github-corner{
+  width: 0 !important;
+  height: 0 !important;
+  visibility: hidden;
+}
 .layout__content {
   margin: auto;
   max-width: 960px;
