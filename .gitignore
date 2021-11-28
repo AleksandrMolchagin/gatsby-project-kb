@@ -14,3 +14,5 @@ yarn.lock
 yalc.lock
 
 packages/*/lib
+
+deploy.sh

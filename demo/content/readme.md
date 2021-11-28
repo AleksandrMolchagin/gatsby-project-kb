@@ -1,4 +1,4 @@
-# Gatsby knowledge base theme
+# Second Brain ✨
 
 This is a Gatsby theme for publishing knowledge base or personal wiki. Named `gatsby-theme-kb`.
 

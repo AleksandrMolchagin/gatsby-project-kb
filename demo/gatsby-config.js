@@ -5,9 +5,9 @@ const pathPrefix = process.env.KB_BASE_PATH || '/'
 module.exports = {
   pathPrefix,
   siteMetadata: {
-    title: `gatsby-theme-kb`,
-    description: `Your personal knowledge base`,
-    author: `@hikerpig`,
+    title: `Aleksandr Molchagin 👨‍💻`,
+    description: `Public knowledge base by Aleksandr Molchagin`,
+    author: `@AleksandrMolchagin`,
   },
   plugins: [
     {

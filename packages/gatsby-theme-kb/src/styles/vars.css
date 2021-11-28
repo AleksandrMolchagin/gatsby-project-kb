@@ -6,7 +6,7 @@
   --light-4: #ffffff;
 
   --dark-1:  #2e3440;
-  --dark-2:  #3b4252;
+  --dark-2:  #2e3440;
   --dark-3:  #434c5e;
   --dark-4:  #4c566a;
 
@@ -38,7 +38,9 @@ body {
   --kb-blockquote-bg: #f6f6f6;
 
   --bg-color-1: #F9FAFB;
-  --bg-color-2: #F3F4F6;
+  --bg-color-2: #F9FAFB;
   --code-bg-color: #f0f0f0;
   --code-color: #333;
+
+  --root-radius: 10px;
 }

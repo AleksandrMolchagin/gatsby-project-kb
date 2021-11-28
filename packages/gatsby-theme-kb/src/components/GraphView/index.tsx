@@ -139,8 +139,10 @@ export default function GraphView({
                 ></Search>
               </div>
               <div>
-                <div ref={graphContainer} id="graph-container"></div>
-                <div className="graph-view__modal-hint">Press Esc twice to close this modal.</div>
+                <div className="graph-container-background">
+                  <div ref={graphContainer} id="graph-container"></div>
+                  <div className="graph-view__modal-hint">Press Esc twice to close this modal.</div>
+                </div>
               </div>
             </div>
           </div>

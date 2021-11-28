@@ -36,6 +36,7 @@
   outline: none;
   padding-left: 28px;
   background-color: var(--kb-note-bg);
+  border-radius: var(--root-radius);
   /* transition: all 0.3s ease-in-out; */
 }
 
