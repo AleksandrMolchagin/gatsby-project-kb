@@ -5,7 +5,7 @@ const pathPrefix = process.env.KB_BASE_PATH || '/'
 module.exports = {
   pathPrefix,
   siteMetadata: {
-    title: `Aleksandr Molchagin 👨‍💻`,
+    title: `Aleksandr Molchagin`,
     description: `Public knowledge base by Aleksandr Molchagin`,
     author: `@AleksandrMolchagin`,
   },

@@ -6,6 +6,7 @@ import { PageContext } from '../../type'
 import { recursivelyCallNode } from '../../utils/index'
 import { SEARCH_HOTKEY } from '../../configs/hotkeys'
 import './site-sidebar.css'
+import techGuy from "../../images/tech-guy.png"
 
 function getDirectoriesByPath(dir: string) {
   const segs = dir.split('/')
@@ -211,7 +212,7 @@ export default function SiteSidebar(props: ISiteSidebarProps) {
   return (
     <div className="site-sidebar py-5 px-2">
       <div className="site-sidebar__title">
-        <Link to="/">{title}</Link>
+        <Link to="/"><div style={{display: "flex"}}><span>{title}</span><span><img src={techGuy} style={{width:'1.5rem', marginLeft: '0.4rem'}}/></span></div></Link>
       </div>
       <div className="site-sidebar__search">
         <Search
