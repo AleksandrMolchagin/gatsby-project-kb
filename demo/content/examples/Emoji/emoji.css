@@ -1,4 +1,11 @@
 .inline-emoji{
     display: inline;
     width: 1.4rem;
+    padding-bottom: 0.2rem;
   }
+
+.inline-emoji-h1{
+  display: inline;
+  width: 3rem;
+  padding-bottom: 0.2rem;
+}
